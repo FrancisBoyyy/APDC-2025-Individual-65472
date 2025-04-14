@@ -10,6 +10,7 @@
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/PasswordChangeResource.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/RegisterResource.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/RemoveUserResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/WorkSheetResources.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AppStartup.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AuthToken.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/ChangeRoleData.java
@@ -20,3 +21,4 @@
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/PasswordChangeData.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/RegisterData.java
 /Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/RemoveUserData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/WorkSheetData.java

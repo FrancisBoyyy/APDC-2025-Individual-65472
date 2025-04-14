@@ -31,7 +31,7 @@ public class AppStartup implements ServletContextListener {
                     .set("user_phone", "+351000000000")
                     .set("user_pwd", DigestUtils.sha512Hex("rootadmin2025!"))
                     .set("user_email", "root@root.com")
-                    .set("user_creation_time", Timestamp.now())
+                    .set("user_creation_time", System.currentTimeMillis())
                     .set("user_username", username)
                     .set("user_privacy", "privado")
                     .set("user_status", "ATIVADA")
