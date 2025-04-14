@@ -1,8 +1,22 @@
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/filters/AdditionalResponseHeadersFilter.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ComputationResource.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/LoginResource.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/MediaResource.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/RegisterResource.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AuthToken.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/LoginData.java
-/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/RegisterData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/filters/AdditionalResponseHeadersFilter.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/filters/AuthenticationFilter.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ChangeRoleResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ChangeStatusResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ComputationResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/EditAccountResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/ListUsersResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/LoginResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/LogoutResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/PasswordChangeResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/RegisterResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/resources/RemoveUserResource.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AppStartup.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/AuthToken.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/ChangeRoleData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/ChangeStatusData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/EditAccountData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/ListUserData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/LoginData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/PasswordChangeData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/RegisterData.java
+/Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto Individual/src/main/java/pt/unl/fct/di/apdc/firstwebapp/util/RemoveUserData.java

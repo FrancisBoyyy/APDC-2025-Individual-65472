@@ -19,5 +19,4 @@ public class AdditionalResponseHeadersFilter implements ContainerResponseFilter 
 		responseContext.getHeaders().add("Access-Control-Allow-Origin", "*");
 		responseContext.getHeaders().add("Access-Control-Allow-Headers", "Content-Type, X-Requested-With");   
 	}
-
 }

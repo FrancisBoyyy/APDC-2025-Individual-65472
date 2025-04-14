@@ -57,7 +57,7 @@ public class ComputationResource {
 	@GET
 	@Path("/compute")
 	public Response triggerExecuteComputeTask() throws IOException {
-		String projectId = "jedi-master-v5-453321";
+		String projectId = "cellular-scion-454916-c8";
 		String queueName = "Default";
 		String location = "europe-west6";
 		LOG.log(Level.INFO, projectId + " :: " + queueName + " :: " + location );

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" metadata-complete="false" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.1">
-  <display-name>My First Web Application</display-name>
+  <display-name>apdc-2025-individual-65472</display-name>
   <context-param>
     <param-name>org.eclipse.jetty.containerInitializers</param-name>
     <param-value><![CDATA[
-    "ContainerInitializer{org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer,interested=[org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJsonProvider, org.glassfish.jersey.jackson.internal.DefaultJacksonJaxbJsonProvider, pt.unl.fct.di.apdc.firstwebapp.resources.ComputationResource, org.glassfish.jersey.server.ResourceConfig$WrappingResourceConfig, pt.unl.fct.di.apdc.firstwebapp.resources.RegisterResource, org.glassfish.jersey.server.ResourceConfig$RuntimeConfig, org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJaxbJsonProvider, pt.unl.fct.di.apdc.firstwebapp.filters.AdditionalResponseHeadersFilter, org.glassfish.jersey.jackson.internal.FilteringJacksonJaxbJsonProvider, org.glassfish.jersey.server.wadl.internal.WadlResource, org.glassfish.jersey.server.ResourceConfig, pt.unl.fct.di.apdc.firstwebapp.resources.MediaResource, pt.unl.fct.di.apdc.firstwebapp.resources.LoginResource],applicable=[],annotated=[]}"]]></param-value>
+    "ContainerInitializer{org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer,interested=[pt.unl.fct.di.apdc.firstwebapp.filters.AuthenticationFilter, pt.unl.fct.di.apdc.firstwebapp.resources.LogoutResource, pt.unl.fct.di.apdc.firstwebapp.resources.ChangeRoleResource, org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJsonProvider, pt.unl.fct.di.apdc.firstwebapp.resources.PasswordChangeResource, org.glassfish.jersey.jackson.internal.DefaultJacksonJaxbJsonProvider, pt.unl.fct.di.apdc.firstwebapp.resources.ComputationResource, pt.unl.fct.di.apdc.firstwebapp.resources.RemoveUserResource, org.glassfish.jersey.server.ResourceConfig$WrappingResourceConfig, pt.unl.fct.di.apdc.firstwebapp.resources.RegisterResource, org.glassfish.jersey.server.ResourceConfig$RuntimeConfig, org.glassfish.jersey.jackson.internal.jackson.jaxrs.json.JacksonJaxbJsonProvider, pt.unl.fct.di.apdc.firstwebapp.filters.AdditionalResponseHeadersFilter, org.glassfish.jersey.jackson.internal.FilteringJacksonJaxbJsonProvider, org.glassfish.jersey.server.wadl.internal.WadlResource, pt.unl.fct.di.apdc.firstwebapp.resources.ChangeStatusResource, org.glassfish.jersey.server.ResourceConfig, pt.unl.fct.di.apdc.firstwebapp.resources.LoginResource, pt.unl.fct.di.apdc.firstwebapp.resources.EditAccountResource, pt.unl.fct.di.apdc.firstwebapp.resources.ListUsersResource],applicable=[],annotated=[]}"]]></param-value>
   </context-param>
   <context-param>
     <param-name>org.eclipse.jetty.tlds</param-name>
@@ -18,43 +18,43 @@
     <param-name>org.eclipse.jetty.originAttribute</param-name>
     <param-value>origin</param-value>
   </context-param>
+  <listener origin="@WebListener(pt.unl.fct.di.apdc.firstwebapp.util.AppStartup):0">
+    <listener-class>pt.unl.fct.di.apdc.firstwebapp.util.AppStartup</listener-class>
+  </listener>
   <servlet>
     <servlet-name>MainServices</servlet-name>
-    <servlet-class origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):0">org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):1">
+    <servlet-class origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):1">org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):2">
       <param-name>jersey.config.server.tracing.type</param-name>
       <param-value>ALL</param-value>
     </init-param>
-    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):2">
+    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):3">
       <param-name>jersey.config.server.provider.classnames</param-name>
-      <param-value>pt.unl.fct.di.apdc.firstwebapp.filters.AdditionalResponseHeadersFilter</param-value>
+      <param-value>pt.unl.fct.di.apdc.firstwebapp.filters.AuthenticationFilter</param-value>
     </init-param>
-    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):3">
+    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):4">
       <param-name>jersey.config.server.provider.scanning.recursive</param-name>
       <param-value>false</param-value>
     </init-param>
-    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):4">
+    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):5">
       <param-name>jersey.config.servlet.filter.contextPath</param-name>
       <param-value>/rest/*</param-value>
     </init-param>
-    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):5">
+    <init-param origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):6">
       <param-name>jersey.config.server.provider.packages</param-name>
       <param-value>pt.unl.fct.di.apdc.firstwebapp.resources</param-value>
     </init-param>
     <load-on-startup>1</load-on-startup>
     <async-supported>false</async-supported>
   </servlet>
-  <servlet-mapping origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):6">
+  <servlet-mapping origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):7">
     <servlet-name>MainServices</servlet-name>
     <url-pattern>/rest/*</url-pattern>
   </servlet-mapping>
-  <security-role>
-    <role-name>admin</role-name>
-  </security-role>
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Disable TRACE</web-resource-name>
-      <url-pattern origin="DefaultsDescriptor(file:///Users/franciscodealmeida/Library/Application%20Support/google-cloud-tools-java/managed-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/docs/jetty12EE10/webdefault.xml):7">/</url-pattern>
+      <url-pattern origin="DefaultsDescriptor(file:///Users/franciscodealmeida/Library/Application%20Support/google-cloud-tools-java/managed-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/docs/jetty12EE10/webdefault.xml):8">/</url-pattern>
       <http-method>TRACE</http-method>
     </web-resource-collection>
     <auth-constraint/>
@@ -65,27 +65,15 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Enable everything but TRACE</web-resource-name>
-      <url-pattern origin="DefaultsDescriptor(file:///Users/franciscodealmeida/Library/Application%20Support/google-cloud-tools-java/managed-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/docs/jetty12EE10/webdefault.xml):8">/</url-pattern>
+      <url-pattern origin="DefaultsDescriptor(file:///Users/franciscodealmeida/Library/Application%20Support/google-cloud-tools-java/managed-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/docs/jetty12EE10/webdefault.xml):9">/</url-pattern>
       <http-method-omission>TRACE</http-method-omission>
     </web-resource-collection>
     <user-data-constraint>
       <transport-guarantee>NONE</transport-guarantee>
     </user-data-constraint>
   </security-constraint>
-  <security-constraint>
-    <web-resource-collection>
-      <web-resource-name>Restricted Area</web-resource-name>
-      <url-pattern origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):9">/secret/*</url-pattern>
-    </web-resource-collection>
-    <auth-constraint>
-      <role-name>admin</role-name>
-    </auth-constraint>
-    <user-data-constraint>
-      <transport-guarantee>NONE</transport-guarantee>
-    </user-data-constraint>
-  </security-constraint>
   <welcome-file-list>
-    <welcome-file origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):10">index.html</welcome-file>
+    <welcome-file origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):10">index.html</welcome-file>
   </welcome-file-list>
   <locale-encoding-mapping-list>
     <locale-encoding-mapping origin="DefaultsDescriptor(file:///Users/franciscodealmeida/Library/Application%20Support/google-cloud-tools-java/managed-cloud-sdk/LATEST/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/docs/jetty12EE10/webdefault.xml):11">
@@ -252,14 +240,14 @@
       <secure>false</secure>
       <max-age>-1</max-age>
     </cookie-config>
-    <tracking-mode>COOKIE</tracking-mode>
     <tracking-mode>URL</tracking-mode>
+    <tracking-mode>COOKIE</tracking-mode>
   </session-config>
-  <error-page origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):50">
+  <error-page origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):50">
     <error-code>500</error-code>
     <location>/error/500.html</location>
   </error-page>
-  <error-page origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Prt/clone3git/adc-2024-2025/target/appengine-staging/WEB-INF/web.xml):51">
+  <error-page origin="WebDescriptor(file:///Users/franciscodealmeida/Library/CloudStorage/OneDrive-FCTNOVA/FCT-UNL/3_Ano/2_Semestre/ADC/Projeto%20Individual/target/appengine-staging/WEB-INF/web.xml):51">
     <error-code>404</error-code>
     <location>/error/404.html</location>
   </error-page>

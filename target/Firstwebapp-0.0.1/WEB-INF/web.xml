@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	version="3.1">
 
-	<display-name>My First Web Application</display-name>
+	<display-name>apdc-2025-individual-65472</display-name>
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -27,7 +27,7 @@
 		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
 		<init-param>
 			<param-name>jersey.config.server.provider.classnames</param-name>
-			<param-value>pt.unl.fct.di.apdc.firstwebapp.filters.AdditionalResponseHeadersFilter</param-value>
+			<param-value>pt.unl.fct.di.apdc.firstwebapp.filters.AuthenticationFilter</param-value>
 		</init-param>
 		<init-param>
 			<param-name>jersey.config.servlet.filter.contextPath</param-name>
@@ -56,15 +56,5 @@
 		<servlet-name>MainServices</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
-	
-	<security-constraint>
-		<web-resource-collection>
-			<web-resource-name>Restricted Area</web-resource-name>
-			<url-pattern>/secret/*</url-pattern>
-		</web-resource-collection>
-		<auth-constraint>
-			<role-name>admin</role-name>
-		</auth-constraint>
-	</security-constraint>
 
 </web-app>
